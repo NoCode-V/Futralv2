@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Futrál website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img
+        src="https://plus.unsplash.com/premium_photo-1687202582447-5b26d5860065?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Logo" class="logo-header">
+    </div>
+    <nav>
+      <a href="#about">O nás</a>
+      <a href="#gallery">Galerie</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="welcome">
+      <img src="https://plus.unsplash.com/premium_photo-1687202582447-5b26d5860065?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="welcomep">
+    </div>
+    <div class="icon-section">
+      <div id="about"></div>
+      <i class="fas fa-guitar"></i>
+    </div>
+    <div class="divider"></div>
+    <div class="about">
+      <div class="universal-headline">
+        <h1>O nás</h1>
+      </div>
+      <div class="about-text">
+        <p>Jsme muzikanti z okolí Semil hrající především k tanci. Deset nadšených hudebníků.</p>
+        <p>Poprvé jsme se v plné sestavě potkali v roce 2010, od te doby se naš repertoar rozrostl o mnoho skvělých pisniček.
+        </p>
+        <p>Za tuto dobu jsme odehrali již mnoho akcí, maturitní a městské plesy, svatby, hasičské a myslivecké zábavy a mnoho
+          dalších. Vždy s důrazem na to aby na písničky bylo možno tancovat. Abychom poskytli muziku nejvysší kvality vystupujeme
+          s naším zvukařem. Otimální zvukovou a světelnou aparaturu vozíme sebou.</p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="icon-section">
+      <div id="gallery"></div>
+      <i class="fas fa-drum"></i>
+    </div>
+    <div class="universal-headline"><h1>Galerie</h1></div>
+    <div class="gallery">
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <div class="gallery-container">
+        <div class="gallery-images"></div>
+      </div>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    <div class="divider"></div>
+    <div class="icon-section">
+      <i class="fas fa-headphones-alt"></i>
+    </div>
+    <div class="contact">
+      <div class="universal-headline">
+        <h1 id="contact">Kontaktujte nás!</h1>
+      </div>
+      <div class="contact-info">
+        <h3>Manažer</h3>
+        <h2>Petr Holubička</h2>
+        <h3>Telefonní číslo</h3>
+        <h2>Tel. č.</h2>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
