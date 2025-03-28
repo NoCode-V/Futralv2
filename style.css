@@ -69,7 +69,7 @@ body {
   .welcome {
     height: 80vh;
     width: 100%;
-    background-image: url("photos/cover.png");
+    background-image: url("cover.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
