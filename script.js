@@ -1,16 +1,16 @@
 const imageUrls = [
-  "photos/foto1.jpg",
-  "photos/foto2.jpg",
-  "photos/foto3.jpg",
-  "photos/foto4.jpg",
-  "photos/foto5.jpg",
-  "photos/foto6.jpg",
-  "photos/foto7.jpg",
-  "photos/foto8.jpg",
-  "photos/foto9.jpg",
-  "photos/foto10.jpg",
-  "photos/foto11.jpg",
-  "photos/foto12.jpg"
+  "foto1.jpg",
+  "foto2.jpg",
+  "foto3.jpg",
+  "foto4.jpg",
+  "foto5.jpg",
+  "foto6.jpg",
+  "foto7.jpg",
+  "foto8.jpg",
+  "foto9.jpg",
+  "foto10.jpg",
+  "foto11.jpg",
+  "foto12.jpg"
 ];
 
 const imagesContainer = document.querySelector('.gallery-images');
