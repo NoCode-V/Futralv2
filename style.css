@@ -220,6 +220,10 @@ body {
     resize: none;
     padding-top: 2%;
   }
+
+  .welcomep {
+        display: none;
+  }
   
   button {
     margin: 2% 0% 2% 2%;
